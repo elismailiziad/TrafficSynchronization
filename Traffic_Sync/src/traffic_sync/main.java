@@ -1,9 +1,7 @@
-package main;
-
 import java.util.*;
 import java.util.concurrent.*;
 
-public class main {
+public class Main {
 
 //  CREATING A LIST TO KEEP TRACK OF VEHICULES EXITING THE BRIDGE
     public static List<Integer> departure_index = new ArrayList<>();
