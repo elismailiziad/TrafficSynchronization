@@ -4,7 +4,7 @@
     
     - Traffic may only cross the bridge in one direction at a time, and if there are ever more than 3 vehicles on the bridge at one time, it will collapse under their weight.
     
-- In our program, each vehicle will be represented by one thread, which executes the procedure OneVehicle when it arrives at the bridge:
+    - In our program, each vehicle will be represented by one thread, which executes the procedure OneVehicle when it arrives at the bridge:
         
          OneVehicle(int vehicle_id,int direc, int time_to_cross) { 
             ArriveBridge(direc); 
